@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #1a1a1a;
+        color: #ffff;
+      }
+      .nav-container {
+        margin-bottom: 40px;
+      }
+      h2 {
+        margin-bottom: 10px;
+      }
+      .nav1 {
+        padding: 10px;
+        background-color: #e1e1e1;
+        width: 100%;
+      }
+      .nav1 ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+        padding: 0;
+      }
+      .nav1 li {
+        display: inline;
+      }
+      .nav1 a {
+        text-decoration: none;
+        color: #111010;
+        padding: 5px 10px;
+      }
+      .nav1 .btn-login {
+        background-color: orange;
+        padding: 5px 15px;
+        border-radius: 5px;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-container">
+      <h2>Ex 1: Horizontal with underulne effect</h2>
+      <nav class="nav1">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Products</a></li>
+        </ul>
+        <button class="btn-login">Login</button>
+      </nav>
+      <div class="nav-container">
+        <h2>Ex 2: Vertical with hover effect</h2>
+        <nav class="nav2">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Products</a></li>
+          </ul>
+          <button>Login</button>
+        </nav>
+      </div>
+      <div class="nav-container">
+        <h2>Ex 3: Horizontal with dropdown</h2>
+        <nav class="nav3">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Products</a></li>
+          </ul>
+          <button>Login</button>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>
